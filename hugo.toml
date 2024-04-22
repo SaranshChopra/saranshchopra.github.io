@@ -6,9 +6,19 @@ publishDir = "docs"
 theme = "nightfall"
 
 [params]
-user = "hello"
-hostname = "gohugo.io"
+user = "welcome"
+hostname = "saranshchopra.io"
 
-  [params.author]
-    name = "Mr Hugo"
-    email = "hugo@example.com"
+[params.author]
+name = "Saransh Chopra"
+email = "saranshchopra98@gmail.com"
+
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/saranshchopra"
+
+[[params.social]]
+key = 1
+name = "email"
+url = "mailto:saranshchopra98@gmail.com"
