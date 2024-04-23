@@ -1,6 +1,6 @@
 baseURL = 'https://saranshchopra.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Saransh Chopra'
 publishDir = "docs"
 
 theme = "nightfall"
@@ -11,7 +11,6 @@ hostname = "saranshchopra.io"
 
 [params.author]
 name = "Saransh Chopra"
-email = "saranshchopra98@gmail.com"
 
 [[params.social]]
 key = 0
@@ -20,5 +19,11 @@ url = "https://github.com/saranshchopra"
 
 [[params.social]]
 key = 1
-name = "email"
-url = "mailto:saranshchopra98@gmail.com"
+name = "linkedin"
+url = "https://linkedin.com/in/saransh-chopra/"
+
+[menu]
+[[menu.header]]
+name = "research"
+weight = 0
+url = "/research"
